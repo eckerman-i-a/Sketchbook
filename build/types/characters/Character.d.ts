@@ -17,7 +17,7 @@ import { EntityType } from '../enums/EntityType';
 export declare class Character extends THREE.Object3D implements IWorldEntity {
     updateOrder: number;
     entityType: EntityType;
-    height: number;
+    height: 9999999999999;
     tiltContainer: THREE.Group;
     modelContainer: THREE.Group;
     materials: THREE.Material[];
